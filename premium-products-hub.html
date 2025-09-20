@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Digital Products Hub</title>
+  <style>
+    /* Your CSS here (kept inline for Google Sites iframe) */
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #333;}
+    .container {max-width: 1200px; margin: 0 auto; padding: 20px;}
+    .cta-button {display: inline-block; background: #667eea; color: #fff; padding: 10px 20px; border-radius: 10px; margin-top: 10px; transition: background 0.3s;}
+    .cta-button:hover {background: #5640d1;}
+    .platform-card, .profile-card {transition: transform 0.3s, box-shadow 0.3s;}
+    .platform-card:hover, .profile-card:hover {transform: translateY(-5px); box-shadow: 0px 4px 15px rgba(0,0,0,0.2);}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>🚀 Premium Digital Products Hub</h1>
+    <p>Discover high-converting digital products, courses, and marketing tools curated to help you scale your business faster.</p>
+
+    <!-- Platforms Grid -->
+    <div class="platforms-grid">
+      <div class="platform-card">
+        <a id="link-jvzoo" href="#" target="_blank">
+          <div class="platform-icon">JVZ</div>
+          <h3>JVZoo Marketplace</h3>
+          <p>Access thousands of high-converting digital products, software tools, and training programs with proven track records.</p>
+          <span class="cta-button">Explore JVZoo Products →</span>
+        </a>
+      </div>
+
+      <div class="platform-card">
+        <a id="link-courses" href="#" target="_blank">
+          <div class="platform-icon">📚</div>
+          <h3>Educational Courses</h3>
+          <p>Premium online courses and training materials designed to accelerate your learning and boost your expertise.</p>
+          <span class="cta-button">View Courses →</span>
+        </a>
+      </div>
+
+      <div class="platform-card">
+        <a id="link-tools" href="#" target="_blank">
+          <div class="platform-icon">🛠️</div>
+          <h3>Marketing Tools</h3>
+          <p>Professional-grade marketing software, automation tools, and resources to scale your business effectively.</p>
+          <span class="cta-button">Get Tools →</span>
+        </a>
+      </div>
+
+      <div class="platform-card">
+        <a id="link-resources" href="#" target="_blank">
+          <div class="platform-icon">💎</div>
+          <h3>Premium Resources</h3>
+          <p>Exclusive templates, guides, and resources from industry experts to give you a competitive advantage.</p>
+          <span class="cta-button">Access Resources →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile-card">
+      <a id="link-profile" href="#" target="_blank">
+        <h2>Meet Your Growth & Sales Engineer</h2>
+        <h3>Arobieke Tolulope</h3>
+        <p>Growth & Sales Engineer who curates high-performing digital products to help you scale faster.</p>
+        <span class="cta-button">View LinkedIn Profile →</span>
+      </a>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="footer">
+      <p>Ready to take your business to the next level? Start exploring today!</p>
+      <a id="link-email" href="#" class="cta-button" target="_blank">📧 Email</a>
+      <a id="link-support" href="#" class="cta-button" target="_blank">💬 Support</a>
+      <a id="link-faq" href="#" class="cta-button" target="_blank">❓ FAQ</a>
+    </div>
+
+  </div>
+
+  <script>
+    // ✅ Centralized links – edit here without touching HTML
+    const links = {
+      jvzoo: "https://jvzoo.com/your-affiliate-link",
+      courses: "https://your-education-platform.com",
+      tools: "https://your-marketing-tools.com",
+      resources: "https://your-premium-resources.com",
+      profile: "https://ng.linkedin.com/in/arobieketolulope",
+      email: "mailto:your@email.com",
+      support: "https://your-support-page.com",
+      faq: "https://your-faq-page.com"
+    };
+
+    // Apply links dynamically
+    document.getElementById("link-jvzoo").href = links.jvzoo;
+    document.getElementById("link-courses").href = links.courses;
+    document.getElementById("link-tools").href = links.tools;
+    document.getElementById("link-resources").href = links.resources;
+    document.getElementById("link-profile").href = links.profile;
+    document.getElementById("link-email").href = links.email;
+    document.getElementById("link-support").href = links.support;
+    document.getElementById("link-faq").href = links.faq;
+  </script>
+</body>
+</html>
